@@ -1,0 +1,7 @@
+2020-08-20 17:13:47.850 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-20 17:13:48.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3003/swagger/index.html  
+2020-08-20 17:13:48.040 +02:00 [INF] Hosting environment: Development
+2020-08-20 17:13:48.041 +02:00 [INF] Content root path: C:\Users\C#\source\repos\message_board\message_board
+2020-08-20 17:13:48.606 +02:00 [INF] Request finished in 598.6257ms 200 text/html;charset=utf-8
+2020-08-20 17:13:50.638 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3003/swagger/v1/swagger.json  
+2020-08-20 17:13:50.889 +02:00 [INF] Request finished in 252.1787ms 200 application/json;charset=utf-8

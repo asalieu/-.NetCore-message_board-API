@@ -17,12 +17,7 @@ using Microsoft.OpenApi.Models;
 namespace message_board
 {
     public class Startup
-    {
-       // private const string RoutePrfix = "swagger";
-
-       // private const string SwaggerEndpoint = "/swagger/v1/swagger.json";
-
-        private const string SwaggerTitle = "Message Board Api";
+    {        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,16 +45,6 @@ namespace message_board
 
             app.UseSwaggerUI(c =>
             {
-                //new settings    
-
-
-               // c.RoutePrefix = "v1";
-               // var basePath = string.IsNullOrWhiteSpace(c.RoutePrefix) ? "." : "..";
-               // c.SwaggerEndpoint($"{basePath}/swagger/{c.RoutePrefix}/swagger.json", SwaggerTitle);
-
-                // c.SwaggerEndpoint($"{SwaggerEndpoint}", SwaggerTitle);
-
-                // original settings
                 c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "Message Board Api");
             });
             if (env.IsDevelopment())
